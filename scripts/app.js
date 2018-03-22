@@ -113,6 +113,25 @@ const secClass = foundSec.classList;
 
 console.log(secClass);
 
+//12
+
+secClass.add('wdi-remote-gizmo');
+
+
+//13
+
+const sec1 = document.querySelector('section');
+
+const foundSec1 = sec1.classList;
+
+console.log(foundSec1.contains('wdi-remote-gizmo'));
+
+
+//14
+
+
+foundSec1.remove('wdi-remote-gizmo');
+
 
 
 
